@@ -1,6 +1,6 @@
-import Div1 from "@/components/Div1";
-import Div2 from "@/components/Div2";
-import Div3 from "@/components/Div3";
+import Div1 from "@/components/Homepage/Div1";
+import Div2 from "@/components/Homepage/Div2"
+import Div3 from "@/components/Homepage/Div3";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {

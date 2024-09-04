@@ -10,7 +10,7 @@ export default function FoodCard() {
       price: "200",
       originalPrice: "300",
       rating: "4.9",
-      image: foodImage, // Placeholder for the actual image
+      image: foodImage,
     },
     {
       title: "Pepperoni Pizza",
@@ -18,7 +18,7 @@ export default function FoodCard() {
       price: "400",
       originalPrice: "500",
       rating: "4.8",
-      image: foodImage, // Placeholder for the actual image
+      image: foodImage,
     },
     {
       title: "Sushi",
@@ -26,10 +26,9 @@ export default function FoodCard() {
       price: "600",
       originalPrice: "800",
       rating: "4.7",
-      image: foodImage, // Placeholder for the actual image
+      image: foodImage,
     },
   ];
-
   return (
     <>
       <div className="p-8">

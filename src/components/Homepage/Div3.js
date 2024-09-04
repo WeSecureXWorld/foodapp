@@ -21,6 +21,12 @@ export default function Div3() {
       description:
         "Lorem ipsum dolor sit amet consectetur. Aenean consectetur.",
     },
+    {
+      id: 4,
+      image: img,
+      description:
+        "Lorem ipsum dolor sit amet consectetur. Aenean consectetur.",
+    },
   ];
 
   return (
@@ -30,13 +36,12 @@ export default function Div3() {
           key={item.id}
           className="relative w-64  rounded-xl shadow-lg p-4 m-4 text-center border border-black"
         >
-          {/* Image placed with negative margins to overlap the card */}
           <div className="absolute -top-16 left-1/2 transform -translate-x-1/2 w-32 h-32 rounded-full overflow-hidden border-4 border-gray-200">
             <Image
               src={item.image}
               alt="Dish"
               className="object-cover bg-black w-full h-full"
-              width={128} // Adjust width and height for external images
+              width={128}
               height={128}
             />
           </div>
