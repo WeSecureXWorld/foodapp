@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-100 py-4">
       <div className="container mx-auto flex items-center justify-between">
-        <div className="text-2xl font-bold">ZOMOYE</div>
+        <div className="text-2xl font-bold">ALFENZO</div>
         <div className="hidden md:flex space-x-16">
           <Link href="#" className="text-gray-600 hover:text-gray-900">
             Home

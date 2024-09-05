@@ -4,7 +4,6 @@ import img1 from "@/assets/food0.png";
 import { useRouter } from "next/navigation";
 export default function Div1() {
   const router = useRouter();
-
   const handleClick = () => {
     router.push("/");
   };

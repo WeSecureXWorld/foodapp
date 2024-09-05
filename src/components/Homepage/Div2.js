@@ -38,7 +38,7 @@ export default function FoodCard() {
         {foodItems.map((foodItem, index) => (
           <div
             key={index}
-            className="bg-white rounded-lg shadow-2xl p-4 flex items-center justify-between w-[400px]"
+            className="bg-[#EDEDED] rounded-lg shadow-2xl p-4 flex items-center justify-between w-[400px]"
           >
             <div className="flex items-start">
               <div>

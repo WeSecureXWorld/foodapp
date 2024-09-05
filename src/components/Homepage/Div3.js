@@ -2,6 +2,7 @@ import Image from "next/image";
 import img from "@/assets/demo.jpeg";
 
 export default function Div3() {
+  
   const menuItems = [
     {
       id: 1,

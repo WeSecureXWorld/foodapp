@@ -1,10 +1,7 @@
 "use client";
-
 import { useState } from "react";
-
 export default function LoginForm() {
   const [isLogin, setIsLogin] = useState(true);
-
   return (
     <div className="relative min-h-screen">
       <div className="absolute top-8 right-8">
@@ -40,7 +37,6 @@ export default function LoginForm() {
           <h2 className="text-center text-2xl font-semibold text-gray-700">
             Welcome Back
           </h2>
-
           <form className="mt-16">
             <div className="relative mb-4">
               <label htmlFor="phone" className="block text-sm text-gray-600">
@@ -57,7 +53,6 @@ export default function LoginForm() {
                 />
               </div>
             </div>
-
             <div className="flex justify-between items-center mt-12">
               <button
                 type="submit"
